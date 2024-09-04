@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="BackgroundImage" x="2.0" y="2.0" width="596.0"
+             height="396.0" fileName="{PROJECT_FOLDER}13.png"/>
+  <Component type="ScriptPanel" id="MainPanel" x="0.0" y="0.0" width="600.0"
+             height="400.0" textColour="3132404916" itemColour="3623878656"
+             itemColour2="3338665984"/>
+  <Component type="ScriptPanel" id="ShadingPanel" x="2.0" y="2.0" width="596.0"
+             height="396.0" itemColour2="3340966707" itemColour="922746879"
+             textColour="922746879" borderSize="0.0"/>
+  <Component type="ScriptImage" id="HeaderPanelBackgroundImage" x="2.0" y="2.0"
+             width="596.0" height="56.0" fileName="{PROJECT_FOLDER}13.png"
+             scale="0.2000000029802322" alpha="0.9300000071525574"/>
+  <Component type="ScriptPanel" id="HeaderPanel" x="0.0" y="0.0" width="600.0"
+             height="60.0" textColour="11842740" itemColour2="2671189332"
+             itemColour="1765502931" borderSize="1.0">
+    <Component type="ScriptImage" id="ScriptImage1" x="-2.0" y="2.0" width="70.0"
+               height="56.0" parentComponent="HeaderPanel" fileName="{PROJECT_FOLDER}bg img 2.png"/>
+    <Component type="ScriptImage" id="Logo" x="5.0" y="0.0" width="60.0" height="60.0"
+               parentComponent="HeaderPanel" fileName="{PROJECT_FOLDER}logo.png"
+               alpha="0.7900000214576721" visible="0"/>
+    <Component type="ScriptLabel" id="AppNameLabel" x="68.0" y="5.0" width="150.0"
+               height="30.0" parentComponent="HeaderPanel" text="SPACE MAKER PRO"
+               alignment="left" fontSize="22.0" fontStyle="Bold"/>
+    <Component type="ScriptPanel" id="HeaderPanelBorder" x="0.0" y="0.0" width="600.0"
+               height="60.0" parentComponent="HeaderPanel" textColour="4291085508"/>
+  </Component>
+  <Component type="ScriptPanel" id="VisualsPanel" x="30.0" y="81.0" width="540.0"
+             height="280.0" textColour="11842740" itemColour="455090208" itemColour2="2725077632"
+             borderSize="0.0" bgColour="16777215">
+    <Component type="ScriptPanel" id="FrequencyScaleBackgroundPanel" x="2.0"
+               y="2.0" width="536.0" height="276.0" parentComponent="VisualsPanel"
+               bgColour="16777215" itemColour="0" itemColour2="0" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="Analyser1Tile" x="2.0" y="2.0"
+               width="536.0" height="276.0" parentComponent="VisualsPanel" ContentType="AudioAnalyser"
+               bgColour="422785843" itemColour="4291085508" itemColour2="10707040"
+               textColour="10898765" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Analyser1&quot;,&#10;  &quot;Index&quot;: 2,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+    <Component type="ScriptFloatingTile" id="SideChainAnalyserTile" x="2.0"
+               y="2.0" width="537.0" height="276.0" parentComponent="VisualsPanel"
+               ContentType="AudioAnalyser" bgColour="3355443" itemColour="1811939328"
+               itemColour2="4473924" textColour="0" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Analyser2&quot;,&#10;  &quot;Index&quot;: 2,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+    <Component type="ScriptPanel" id="FrequencyScaleBackgroundPanel2" x="2.0"
+               y="2.0" width="536.0" height="276.0" parentComponent="VisualsPanel"
+               bgColour="16777215" itemColour="0" itemColour2="0" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="GainReductionTile" x="2.0" y="2.0"
+               width="536.0" height="277.0" parentComponent="VisualsPanel" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="16777215" itemColour2="2191482273"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;DynamicEQ&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+               textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="FilterCurveTile" x="2.0" y="2.0"
+               width="537.0" height="277.0" parentComponent="VisualsPanel" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="3805993690" itemColour2="709714837"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;DynamicEQ&quot;,&#10;  &quot;Index&quot;: 4,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+               textColour="2169714"/>
+    <Component type="ScriptFloatingTile" id="EQ1GRTile" x="2.0" y="2.0" width="536.0"
+               height="276.0" parentComponent="VisualsPanel" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="16742263" itemColour2="2164225654"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;DynamicEQ&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+    <Component type="ScriptFloatingTile" id="EQ2GRTile" x="2.0" y="2.0" width="536.0"
+               height="276.0" parentComponent="VisualsPanel" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="16777215" itemColour2="2162818942"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;DynamicEQ&quot;,&#10;  &quot;Index&quot;: 1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+    <Component type="ScriptFloatingTile" id="EQ3GRTile" x="2.0" y="2.0" width="536.0"
+               height="276.0" parentComponent="VisualsPanel" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="16777215" itemColour2="2155413368"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;DynamicEQ&quot;,&#10;  &quot;Index&quot;: 2,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+    <Component type="ScriptFloatingTile" id="EQ4GRTile" x="2.0" y="2.0" width="536.0"
+               height="276.0" parentComponent="VisualsPanel" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="16777215" itemColour2="2155313151"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;DynamicEQ&quot;,&#10;  &quot;Index&quot;: 3,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+    <Component type="ScriptPanel" id="BandGuideContainerPanel" x="2.0" y="2.0"
+               width="537.0" height="277.0" parentComponent="VisualsPanel" textColour="16777215"
+               bgColour="16777215" itemColour="0" itemColour2="0">
+      <Component type="ScriptPanel" id="Band1GuidePanel" x="0.0" y="0.0" width="125.0"
+                 height="277.0" parentComponent="BandGuideContainerPanel" textColour="16777215"
+                 itemColour="50266112" itemColour2="0" bgColour="16777215" borderSize="0.0"
+                 borderRadius="0.0" popupOnRightClick="0" holdIsRightClick="0"/>
+      <Component type="ScriptPanel" id="Band2GuidePanel" x="125.0" y="0.0" width="179.0"
+                 height="277.0" parentComponent="BandGuideContainerPanel" textColour="16777215"
+                 itemColour2="0" bgColour="16777215" borderSize="0.0" borderRadius="0.0"
+                 popupOnRightClick="0" holdIsRightClick="0" itemColour="50266112"/>
+      <Component type="ScriptPanel" id="Band3GuidePanel" x="304.0" y="0.0" width="178.0"
+                 height="277.0" parentComponent="BandGuideContainerPanel" textColour="16777215"
+                 itemColour2="0" bgColour="16777215" borderSize="0.0" borderRadius="0.0"
+                 popupOnRightClick="0" holdIsRightClick="0" itemColour="50266112"/>
+      <Component type="ScriptPanel" id="Band4GuidePanel" x="482.0" y="0.0" width="55.0"
+                 height="277.0" parentComponent="BandGuideContainerPanel" textColour="16777215"
+                 itemColour="50266112" itemColour2="0" bgColour="16777215" borderSize="0.0"
+                 borderRadius="0.0" popupOnRightClick="0" holdIsRightClick="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="BorderPanel" x="0.0" y="0.0" width="540.0"
+               height="280.0" parentComponent="VisualsPanel" itemColour="0"
+               bgColour="16777215" itemColour2="0" textColour="4290032820"/>
+    <Component type="ScriptPanel" id="ParamEQPanel" x="2.0" y="2.0" width="537.0"
+               height="277.0" textColour="16777215" bgColour="16777215" itemColour="0"
+               itemColour2="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+               holdIsRightClick="0" parentComponent="VisualsPanel">
+      <Component type="ScriptPanel" id="4BandDraggingHolderPanel" x="0" y="128.5"
+                 width="537.0" height="148.5" parentComponent="ParamEQPanel" borderSize="0.0"
+                 borderRadius="0.0" textColour="16777215" itemColour2="0" itemColour="0"
+                 bgColour="16777215" allowCallbacks="Clicks &amp; Hover" holdIsRightClick="0"
+                 popupOnRightClick="0">
+        <Component type="ScriptPanel" id="EQ1BandPanel" x="45.00000296480851" y="-0.0"
+                   width="20.0" height="20.0" parentComponent="4BandDraggingHolderPanel"
+                   bgColour="4294967295" itemColour="2733777820" itemColour2="3092720498"
+                   textColour="4292072403" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   allowDragging="1" text="39" popupOnRightClick="0" holdIsRightClick="0"
+                   borderRadius="20.0" borderSize="0">
+          <Component type="ScriptLabel" id="EQ1BandLabel" x="0.0" y="0.0" width="20.0"
+                     height="20.0" parentComponent="EQ1BandPanel" text="1" bgColour="1052688"
+                     editable="0" itemColour2="1118481"/>
+        </Component>
+        <Component type="ScriptPanel" id="EQ2BandPanel" x="194" y="85" width="20.0"
+                   height="20.0" parentComponent="4BandDraggingHolderPanel" bgColour="4294967295"
+                   itemColour="2733777820" itemColour2="3092720498" borderRadius="20.0"
+                   allowDragging="1" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   holdIsRightClick="0" popupOnRightClick="0" textColour="4292072403"
+                   borderSize="0">
+          <Component type="ScriptLabel" id="EQ2BandLabel" x="0.0" y="0.0" width="20.0"
+                     height="20.0" parentComponent="EQ2BandPanel" text="2" editable="0"
+                     itemColour2="1118481"/>
+        </Component>
+        <Component type="ScriptPanel" id="EQ3BandPanel" x="304.1156307761474" y="-0.0"
+                   width="20.0" height="20.0" parentComponent="4BandDraggingHolderPanel"
+                   bgColour="4294967295" itemColour="2733777820" itemColour2="3092720498"
+                   borderRadius="20.0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   holdIsRightClick="0" allowDragging="1" popupOnRightClick="0"
+                   textColour="4292072403" borderSize="0">
+          <Component type="ScriptLabel" id="EQ3BandLabel" x="0.0" y="0.0" width="20.0"
+                     height="20.0" parentComponent="EQ3BandPanel" text="3" itemColour2="1118481"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptPanel" id="EQ4BandPanel" x="483.1156307761475" y="-0.0"
+                   width="20.0" height="20.0" parentComponent="4BandDraggingHolderPanel"
+                   itemColour="2733777820" itemColour2="3092720498" bgColour="4294967295"
+                   allowCallbacks="Clicks, Hover &amp; Dragging" allowDragging="1"
+                   holdIsRightClick="0" borderRadius="20.0" popupOnRightClick="0"
+                   textColour="4292072403" borderSize="0">
+          <Component type="ScriptLabel" id="EQ4BandLabel" x="0.0" y="0.0" width="20.0"
+                     height="20.0" parentComponent="EQ4BandPanel" text="4" editable="0"
+                     itemColour2="1118481"/>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="EQParamConfig" x="264" y="129" width="290.0"
+             height="140.0" popupOnRightClick="0" holdIsRightClick="0" allowDragging="1"
+             allowCallbacks="Clicks, Hover &amp; Dragging" itemColour="-832544672"
+             itemColour2="-838860800" textColour="-167706367" borderSize="0.0"
+             visible="false">
+    <Component type="ScriptLabel" id="ScriptLabel2" x="10.0" y="28.0" width="40.0"
+               height="20.0" parentComponent="EQParamConfig" text="Q" editable="0"
+               fontSize="12.0"/>
+    <Component type="ScriptLabel" id="ScriptLabel3" x="140.0" y="28.0" width="40.0"
+               height="20.0" parentComponent="EQParamConfig" text="Attack" editable="0"
+               fontSize="12.0"/>
+    <Component type="ScriptLabel" id="ScriptLabel4" x="190.0" y="28.0" width="40.0"
+               height="20.0" parentComponent="EQParamConfig" text="Release"
+               editable="0" fontSize="12.0"/>
+    <Component type="ScriptSlider" id="EQParamQSlider" x="10.0" y="45.0" width="40.0"
+               height="40.0" parentComponent="EQParamConfig" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               showTextBox="0" defaultValue="1.0" stepSize="0.1000000014901161"
+               saveInPreset="0"/>
+    <Component type="ScriptSlider" id="EQParamAttackSlider" x="140.0" y="45.0"
+               width="40.0" height="40.0" parentComponent="EQParamConfig" showTextBox="0"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               stepSize="1.0" max="100.0" saveInPreset="0"/>
+    <Component type="ScriptSlider" id="EQParamReleaseSlider" x="190.0" y="45.0"
+               width="40.0" height="40.0" parentComponent="EQParamConfig" showTextBox="0"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               max="500.0" saveInPreset="0"/>
+    <Component type="ScriptButton" id="EQFilterTypeButton1" x="60.0" y="47.0"
+               width="70.0" height="20.0" parentComponent="EQParamConfig" text="Peak"
+               bgColour="16777215" itemColour="909325107" itemColour2="3541111057"
+               radioGroup="1.0" defaultValue="1.0" saveInPreset="0"/>
+    <Component type="ScriptButton" id="EQFilterTypeButton2" x="60.0" y="68.0"
+               width="70.0" height="20.0" parentComponent="EQParamConfig" text="LP"
+               bgColour="16777215" itemColour="909325107" itemColour2="3541111057"
+               radioGroup="1.0" saveInPreset="0"/>
+    <Component type="ScriptButton" id="EQFilterTypeButton3" x="60.0" y="88.0"
+               width="70.0" height="20.0" parentComponent="EQParamConfig" text="HP"
+               bgColour="16777215" itemColour="909325107" itemColour2="3541111057"
+               radioGroup="1.0" saveInPreset="0"/>
+    <Component type="ScriptLabel" id="EQParamQLabel" x="10.0" y="88.0" width="40.0"
+               height="20.0" parentComponent="EQParamConfig" text="0.3" editable="0"/>
+    <Component type="ScriptLabel" id="EQParamAttackLabel" x="140.0" y="88.0"
+               width="40.0" height="20.0" parentComponent="EQParamConfig" text="0mS"
+               editable="0"/>
+    <Component type="ScriptLabel" id="EQParamReleaseLabel" x="190.0" y="88.0"
+               width="40.0" height="20.0" parentComponent="EQParamConfig" text="166mS"
+               editable="0"/>
+    <Component type="ScriptLabel" id="ScriptLabel5" x="60.0" y="28.0" width="70.0"
+               height="20.0" parentComponent="EQParamConfig" text="Filter Type"
+               editable="0" fontSize="12.0"/>
+    <Component type="ScriptButton" id="EQParamConfigCloseButton" x="261.0" y="1.0"
+               width="30.0" height="30.0" parentComponent="EQParamConfig" bgColour="16777215"
+               itemColour="3355443" itemColour2="2064716049" text="X" enableMidiLearn="0"
+               saveInPreset="0" isMomentary="1" filmstripImage="{PROJECT_FOLDER}close_button.png"
+               numStrips="6.0"/>
+    <Component type="ScriptLabel" id="EQParamConfigHeaderLabel" x="5.0" y="6.0"
+               width="150.0" height="20.0" parentComponent="EQParamConfig" alignment="left"
+               fontStyle="Bold" text="EQ 2 Parameters" editable="0"/>
+    <Component type="ScriptLabel" id="ScriptLabel6" x="6.0" y="113.0" width="68.0"
+               height="20.0" parentComponent="EQParamConfig" alignment="left"
+               text="Freqency:" editable="0" fontSize="12.0"/>
+    <Component type="ScriptLabel" id="EQFrequencyLabel" x="74.0" y="113.0" width="60.0"
+               height="20.0" parentComponent="EQParamConfig" alignment="left"
+               text="203Hz" editable="0" fontSize="12.0"/>
+    <Component type="ScriptLabel" id="ScriptLabel8" x="139.0" y="113.0" width="73.0"
+               height="20.0" parentComponent="EQParamConfig" alignment="left"
+               text="GR Target:" editable="0" fontSize="12.0"/>
+    <Component type="ScriptLabel" id="EQGainReductionLabel" x="231.0" y="113.0"
+               width="50.0" height="20.0" parentComponent="EQParamConfig" text="-12.0dB"
+               alignment="right" editable="0" fontSize="12.0"/>
+    <Component type="ScriptSlider" id="EQParamGainSlider" x="240.0" y="45.0"
+               width="40.0" height="40.0" parentComponent="EQParamConfig" showTextBox="0"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               max="18.0" saveInPreset="0" text="EQParamGainSlider SIDECHAIN"
+               mode="Decibel" min="-18.0" stepSize="0.1000000014901161" middlePosition="0.0"/>
+    <Component type="ScriptLabel" id="ScriptLabel7" x="240.0" y="28.0" width="40.0"
+               height="20.0" parentComponent="EQParamConfig" text="SC Gain"
+               editable="0" fontSize="12.0"/>
+    <Component type="ScriptLabel" id="EQParamGainLabel" x="240.0" y="88.0" width="40.0"
+               height="20.0" parentComponent="EQParamConfig" text="18.0dB" editable="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="HiddenControlsPanel" x="90.0" y="0.0"
+             width="450" height="220" visible="0">
+    <Component type="ScriptButton" id="TestButton" x="10.0" y="180.0" isMomentary="1"
+               text="Test Load Settings" parentComponent="HiddenControlsPanel"
+               saveInPreset="0" bgColour="1432813390" itemColour="2097152000"
+               itemColour2="4211081216" textColour="4278190080"/>
+    <Component type="ScriptSlider" id="EQBand1" x="10.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Frequency" min="20.0" max="15000.0" stepSize="1.0" suffix=" Hz"
+               middlePosition="1500.0" parentComponent="HiddenControlsPanel"
+               defaultValue="30.0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttenuation1" x="60.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+               middlePosition="-9.0" parentComponent="HiddenControlsPanel" enableMidiLearn="0"
+               min="-18.0" style="Vertical" itemColour="2818508294" bgColour="4294967295"/>
+    <Component type="ScriptSlider" id="EQBand2" x="130.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Frequency" min="20.0" max="15000.0" stepSize="1.0" suffix=" Hz"
+               middlePosition="1500.0" parentComponent="HiddenControlsPanel"
+               defaultValue="100.0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttenuation2" x="180.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="0.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="-6.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQBand3" x="250.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Frequency" min="20.0" max="15000.0" stepSize="1.0" suffix=" Hz"
+               middlePosition="1500.0" parentComponent="HiddenControlsPanel"
+               defaultValue="1000.0" style="Vertical" bgColour="4294967295"
+               itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttenuation3" x="300.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="0.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="-6.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQBand4" x="370.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Frequency" min="20.0" max="15000.0" stepSize="1.0" suffix=" Hz"
+               middlePosition="1500.0" parentComponent="HiddenControlsPanel"
+               defaultValue="15000.0" style="Vertical" bgColour="4294967295"
+               itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttenuation4" x="420.0" y="10.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="0.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="-6.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQQ1" x="10.0" y="52.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="1.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQQ2" x="130.0" y="52.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="1.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQQ3" x="250.0" y="52.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="1.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQQ4" x="370.0" y="52.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="1.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttack1" x="10.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="100.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttack2" x="130.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="100.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttack3" x="250.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="100.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQAttack4" x="370.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="100.0"
+               style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQRelease1" x="60.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="500.0"
+               defaultValue="500.0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQRelease2" x="180.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="500.0"
+               defaultValue="500.0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQRelease3" x="300.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="500.0"
+               defaultValue="500.0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQRelease4" x="420.0" y="93.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" max="500.0"
+               defaultValue="500.0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQGain1" x="60.0" y="52.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="18.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="0.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQGain2" x="180.0" y="52.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="18.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="0.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQGain3" x="300.0" y="52.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="18.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="0.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQGain4" x="420.0" y="52.0" width="10.0"
+               height="35.0" showTextBox="0" scrollWheel="0" sendValueOnDrag="0"
+               mode="Decibel" min="-18.0" max="18.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="0.0" parentComponent="HiddenControlsPanel"
+               enableMidiLearn="0" style="Vertical" bgColour="4294967295" itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQType1" x="10.0" y="135.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="4.0"
+               min="2.0" max="4.0" stepSize="1.0" style="Vertical" bgColour="4294967295"
+               itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQType2" x="130.0" y="135.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="4.0"
+               min="2.0" max="4.0" stepSize="1.0" style="Vertical" bgColour="4294967295"
+               itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQType3" x="250.0" y="135.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="4.0"
+               min="2.0" max="4.0" stepSize="1.0" style="Vertical" bgColour="4294967295"
+               itemColour="2818508294"/>
+    <Component type="ScriptSlider" id="EQType4" x="370.0" y="135.0" width="10.0"
+               height="35.0" parentComponent="HiddenControlsPanel" defaultValue="4.0"
+               min="2.0" max="4.0" stepSize="1.0" style="Vertical" bgColour="4294967295"
+               itemColour="2818508294"/>
+  </Component>
+</ContentProperties>
